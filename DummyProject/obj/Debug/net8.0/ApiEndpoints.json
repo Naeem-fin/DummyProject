@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "DummyProject.Controllers.AuthController",
+    "Method": "Employee",
+    "RelativePath": "apigateway/api/Auth/employeeinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "DummyProject.Model.EmployeeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DummyProject.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "apigateway/api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logRequest",
+        "Type": "DummyProject.Model.LogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
